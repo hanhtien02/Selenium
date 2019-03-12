@@ -14,7 +14,7 @@ public class MultiBrowsersTest {
     public static void main(String[] args) {
         // input browser name and the link you want to open
         String myLink = "https://google.com";
-        String myBrowserName = "ie";
+        String myBrowserName = "chrome";
         openMyBrowser(myBrowserName, myLink);
 
     }
