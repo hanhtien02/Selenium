@@ -5,6 +5,6 @@ public enum BrowserName {
         Chrome,
         FireFox,
         Edge,
-        IE
+        IE,
 
 }

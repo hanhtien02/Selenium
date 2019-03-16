@@ -2,6 +2,7 @@ package inspect;
 import static Support.ComonFunctions.*;
 
 
+import Support.BrowserName;
 import org.openqa.selenium.support.How;
 
 public class RedirectLinkTest {
