@@ -24,6 +24,10 @@ public class SelectOptionTest {
         selectOption("Option 1");
         Thread.sleep(2000);
 
+        //
+        selectOption("Option 2");
+        Thread.sleep(2000);
+
 
 
         close();

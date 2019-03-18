@@ -12,6 +12,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.List;
+
 public class ComonFunctions {
     // define a static variable
     private static WebDriver driver;
@@ -28,6 +30,10 @@ public class ComonFunctions {
 
     public static WebElement getElement(How how, String locator) {
         return driver.findElement(how.buildBy(locator));
+    }
+    // list element
+    public  static List<WebElement> getElements(How how, String locator){
+        return driver.findElements(how.buildBy(locator));
     }
 
     // open linkTo
@@ -85,10 +91,13 @@ public class ComonFunctions {
                 System.out.println(" Unknown browser " + browserName);
         }
     }
-    public static void selectOption(String withOption) throws InterruptedException {
+    public static void selectOption(String withOption) {
         WebElement mySelectElement = getElement(How.ID, "dropdown");
+
         Select dropdown = new Select(mySelectElement);
+
         dropdown.selectByVisibleText(withOption);
+
     }
 
 }
