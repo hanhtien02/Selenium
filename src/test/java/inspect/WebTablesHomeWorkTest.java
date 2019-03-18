@@ -35,16 +35,10 @@ public class WebTablesHomeWorkTest {
             String value = getCell(i, indexOfDue);
             if (value.equalsIgnoreCase("$50.00")) {
                 System.out.println(" The Last name of person who have Due = $50 is: " + getCell(i, indexOfLastName));
-            }else {
-                System.out.println("Request value is not found!");
             }
-
-
         }
 
         close();
-
-
     }
 
     // get value of 1 cell in table
@@ -64,8 +58,5 @@ public class WebTablesHomeWorkTest {
             }
         }
         return value;
-
     }
-
-
 }
