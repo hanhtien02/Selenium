@@ -49,7 +49,7 @@ public class Find50Due {
                 String.format(cellLocator, row, column)).getText();
     }
 
-    // get the index of column based on co;umn size
+    // get the index of column based on coLumn size
     public static int findIndexOfColumn(String columnName, int columnSize) {
         int indexNumber = 0;
         for (int column = 1; column <= columnSize; column++) {
