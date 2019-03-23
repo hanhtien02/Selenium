@@ -29,10 +29,11 @@ public class ComonFunctions {
      */
 
     public static WebElement getElement(How how, String locator) {
+
         return driver.findElement(how.buildBy(locator));
     }
-    // list element
-    public  static List<WebElement> getElements(How how, String locator){
+    public static List<WebElement> getElements(How how, String locator) {
+
         return driver.findElements(how.buildBy(locator));
     }
 
@@ -91,13 +92,13 @@ public class ComonFunctions {
                 System.out.println(" Unknown browser " + browserName);
         }
     }
-    public static void selectOption(String withOption) {
+    public static void selectOption(String withOption) throws InterruptedException {
         WebElement mySelectElement = getElement(How.ID, "dropdown");
-
         Select dropdown = new Select(mySelectElement);
-
         dropdown.selectByVisibleText(withOption);
-
+    }
+    public static WebDriver getDriver(){
+        return driver;
     }
 
 }

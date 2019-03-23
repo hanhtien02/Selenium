@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b67152-fc93-48f7-b0c7-de3fba6472df" name="Default Changelist" comment="">
+    <list default="true" id="65b67152-fc93-48f7-b0c7-de3fba6472df" name="Default Changelist" comment="Print out last name of person who have Due = $50">
+      <change afterPath="$PROJECT_DIR$/src/test/java/itcTest/ITCWeekViewTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Support/BrowserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Support/BrowserName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Support/ComonFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Support/ComonFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inspect/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inspect/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inspect/RedirectLinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inspect/RedirectLinkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inspect/SelectOptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inspect/SelectOptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/inspect/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/inspect/LoginPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/inspect/Find50Due.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inspect/Find50Due.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/inspect/WebTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inspect/WebTableTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,24 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/browsers/IETest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/inspect/WebTableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/inspect/LoginPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="510">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,10 +31,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/inspect/SelectOptionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/inspect/IFrameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,20 +45,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Support/ComonFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="-520">
+              <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1178#1179#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#1253#1254#0" expanded="true" />
+                <element signature="e#1304#1305#0" expanded="true" />
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#1583#1584#0" expanded="true" />
+                <element signature="e#1643#1644#0" expanded="true" />
+                <element signature="e#1725#1726#0" expanded="true" />
+                <element signature="e#1773#1774#0" expanded="true" />
+                <element signature="e#3069#3070#0" expanded="true" />
+                <element signature="e#3098#3099#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,13 +69,31 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Homework_smallestDue" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="tientest" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -109,7 +113,18 @@
         <option value="$PROJECT_DIR$/src/test/java/inspect/RedirectLinkTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/inspect/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/inspect/SelectOptionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inspect/CheckboxTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inspect/BasicAuthTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inspect/WebtableHomeworksTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inspect/Find50Due.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inspect/FindSmallestDue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inspect/ITCWWeekViewTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inspect/ITCWeekViewTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/itcTest/ITCWeekViewTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inspect/WebTableTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inspect/WebTablesHomeWorkTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Support/ComonFunctions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inspect/IFrameTest.java" />
       </list>
     </option>
   </component>
@@ -121,7 +136,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="60" />
+    <option name="x" value="-168" />
+    <option name="y" value="210" />
     <option name="width" value="1890" />
     <option name="height" value="960" />
   </component>
@@ -131,6 +147,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,18 +224,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552707456765" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553309306251" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Testing VN/document Selenium/selenium-java-3.141.59/libs/okio-1.14.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="itcTest" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tien\Documents\Intelli J community\Drivers" />
     </key>
@@ -234,9 +253,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectOptionTest">
-    <configuration name="GoogleSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inspect.GoogleSearchTest" />
+  <component name="RunManager" selected="Application.IFrameTest">
+    <configuration name="CheckboxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inspect.CheckboxTest" />
       <module name="AK20- Tien" />
       <extension name="coverage">
         <pattern>
@@ -248,34 +267,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IETest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="browsers.IETest" />
-      <module name="AK20- Tien" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="browsers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inspect.LoginPageTest" />
-      <module name="AK20- Tien" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inspect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedirectLinkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inspect.RedirectLinkTest" />
+    <configuration name="IFrameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inspect.IFrameTest" />
       <module name="AK20- Tien" />
       <extension name="coverage">
         <pattern>
@@ -300,13 +293,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inspect.WebTableTest" />
+      <module name="AK20- Tien" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inspect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTablesHomeWorkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inspect.WebTablesHomeWorkTest" />
+      <module name="AK20- Tien" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inspect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IFrameTest" />
+        <item itemvalue="Application.WebTableTest" />
+        <item itemvalue="Application.WebTablesHomeWorkTest" />
         <item itemvalue="Application.SelectOptionTest" />
-        <item itemvalue="Application.RedirectLinkTest" />
-        <item itemvalue="Application.IETest" />
-        <item itemvalue="Application.LoginPageTest" />
-        <item itemvalue="Application.GoogleSearchTest" />
+        <item itemvalue="Application.CheckboxTest" />
       </list>
     </recent_temporary>
   </component>
@@ -342,14 +361,77 @@
       <option name="project" value="LOCAL" />
       <updated>1552706031203</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="My first push">
+      <created>1552707510837</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552707510837</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Print out last name of person who have Due = $50">
+      <created>1552893821951</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552893821951</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Print out last name of person who have Due = $50">
+      <created>1552895992432</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552895992432</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Print out last name of person who have Due = $50">
+      <created>1552896420184</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552896420184</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Print out last name of person who have Due = $50">
+      <created>1552896707903</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1552896707903</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Print out last name of person who have Due = $50">
+      <created>1552897169410</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552897169410</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Print out last name of person who have Due = $50">
+      <created>1552899215872</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552899215873</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Print out last name of person who have Due = $50">
+      <created>1552913161621</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1552913161621</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Print out last name of person who have smallest Due.&#10;I did the name refactor">
+      <created>1552970744201</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552970744201</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27530363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28502023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,16 +439,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3268206" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -377,7 +459,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27530363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28016195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,8 +467,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,7 +489,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My first push" />
-    <option name="LAST_COMMIT_MESSAGE" value="My first push" />
+    <MESSAGE value="Print out last name of person who have Due = $50" />
+    <MESSAGE value="Print out last name of person who have smallest Due.&#10;I did the name refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Print out last name of person who have smallest Due.&#10;I did the name refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -574,18 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="782" selection-start-line="782" selection-end-line="782" />
-          <folding>
-            <element signature="e#26015#26016#0" expanded="true" />
-            <element signature="e#26049#26050#0" expanded="true" />
-            <element signature="e#26266#26267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../Testing VN/document Selenium/selenium-java-3.141.59/libs/guava-25.0-jre.jar!/com/google/common/collect/CollectPreconditions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -630,16 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/browsers/IETest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/inspect/GoogleSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -650,13 +712,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Support/BrowserNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Support/BrowserNames.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/inspect/RedirectLinkTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-673">
@@ -667,16 +723,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Support/BrowserName.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/inspect/CheckboxTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="170">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="782" selection-start-line="782" selection-end-line="782" />
+          <folding>
+            <element signature="e#26015#26016#0" expanded="true" />
+            <element signature="e#26049#26050#0" expanded="true" />
+            <element signature="e#26266#26267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/browsers/IETest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inspect/SelectOptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inspect/Find50Due.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="68" lean-forward="true" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1219#1227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inspect/FindSmallestDue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/inspect/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="136">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -684,30 +803,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Support/ComonFunctions.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Support/BrowserName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inspect/BasicAuthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/inspect/SelectOptionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/itcTest/ITCWeekViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="379">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inspect/WebTablesHomeWorkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inspect/WebtableHomeworksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Support/ComonFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#3069#3070#0" expanded="true" />
+            <element signature="e#3098#3099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inspect/WebTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inspect/IFrameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

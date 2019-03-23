@@ -3,10 +3,11 @@ import Support.BrowserName;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.How;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static Support.ComonFunctions.*;
-import static Support.ComonFunctions.getElements;
+//import static Support.ComonFunctio
 
 
 public class Find50Due {
@@ -24,17 +25,18 @@ public class Find50Due {
         List<WebElement> columns = getElements(How.XPATH, "//table[@id = 'table1']/thead/tr/th");
 
         // index of last name
-        int indexOfLastName = findIndexOfColumn("Last Name", columns.size());
+        int indexOfColumnLastName = findIndexOfColumn("Last Name", columns.size());
         // index of due
-        int indexOfDue = findIndexOfColumn("Due", columns.size());
+        int indexOfColumnDue = findIndexOfColumn("Due", columns.size());
 
         // find and print last name of person who have Due = $50
         // Please help to review: Should I implement this part as an method or not?
+        List<String> is50DueList = new ArrayList<String>();
 
-        for (int i = 1; i <= rows.size(); i++) {
-            String value = getCell(i, indexOfDue);
-            if (value.equalsIgnoreCase("$50.00")) {
-                System.out.println(" The Last name of person who have Due = $50 is: " + getCell(i, indexOfLastName));
+        for (int row = 1; row <= rows.size(); row++) {
+            String cellValue = getCell(row, indexOfColumnDue);
+            if (cellValue.equalsIgnoreCase("$50.00")) {
+                is50DueList.add(getCell(row,indexOfColumnLastName));
             }
         }
 
@@ -49,15 +51,15 @@ public class Find50Due {
 
     // get the index of column based on co;umn size
     public static int findIndexOfColumn(String columnName, int columnSize) {
-        int value = 0;
-        for (int i = 1; i <= columnSize; i++) {
-            String cellValue = getElement(How.XPATH, String.format("//table[@id = 'table1']/thead/tr/th[%d]", i)).getText();
+        int indexNumber = 0;
+        for (int column = 1; column <= columnSize; column++) {
+            String cellValue = getElement(How.XPATH, String.format("//table[@id = 'table1']/thead/tr/th[%d]", column)).getText();
 
             if (cellValue.equalsIgnoreCase(columnName)) {
-                value = i;
+                indexNumber = column;
             }
         }
-        return value;
+        return indexNumber;
     }
 
 }
