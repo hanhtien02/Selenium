@@ -10,7 +10,7 @@ public class NetFrame {
         openBrowser(BrowserName.Chrome);
         visit("https://the-internet.herokuapp.com/nested_frames");
         //getDriver().switchTo().frame("frame-bottom");
-        getDriver().switchTo().frame("frame-top");//
+        getDriver().switchTo().frame("frame-top");//n
         getDriver().switchTo().frame("frame-left");
         System.out.println(getText(How.XPATH, "/html/body"));
         close();
